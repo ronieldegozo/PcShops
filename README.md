@@ -1,7 +1,7 @@
-                                        Web Based CCS Freshmen Course Evaluation System of NEU
+                                        WEB BASED PC SHOP PARTS MULTIMEDIA PROJECT
 
-Web based system are system that are effective to use these days. It helps to process data, stores necessary information and presenting the result to the user by the use of the internet. Course assessment are the process to determine which specific course you will be fit also by the use of online exam. Web based system course assessment helps to interact with the student to help them to choose their career path or course that they will be fit. Some students in freshmen are having difficulty in choosing the course or career they want.
+The basic parts of a desktop computer are the computer case, monitor, keyboard, mouse, and power cord. Each part plays an important role whenever you use a computer.
 
+The computer case is the metal and plastic box that contains the main components of the computer, including the motherboard, central processing unit (CPU), and power supply. The front of the case usually has an On/Off button and one or more optical drives.
 
-
-![pexels-christina-morillo-1181263](https://user-images.githubusercontent.com/63585718/120918366-b9fbd980-c6e6-11eb-88ea-b230f498220f.jpg)
+Computer cases come in different shapes and sizes. A desktop case lies flat on a desk, and the monitor usually sits on top of it. A tower case is tall and sits next to the monitor or on the floor. All-in-one computers come with the internal components built into the monitor, which eliminates the need for a separate case.
