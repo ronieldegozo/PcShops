@@ -4,7 +4,9 @@
 
   <!-- ======= NAVBAR ======= -->
   <%- include('./includes/nav') %>
-
+  <audio type="hidden" controls autoplay hidden>
+    <source src="/assets/audio/pcshop.mp3" type="audio/ogg">
+  </audio>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -21,13 +23,28 @@
           </div>
         </div>
         <div class="col-lg-4 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
-          <a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            <h3>About us</h3>
+          </button>
         </div>
 
       </div>
     </div>
   </section>
   <!-- End Hero -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body  text-center">  >
+        <strong  style="color: green;"> <br> Select one</strong> <br>
+        <button type="button" href="https://youtu.be/ZCS9bFBOOg4" type="button" class="venobox play-btn btn-success " data-vbtype="video" data-autoplay="true">Admin</button>
+        <button type="button" href="#" type="button" class="venobox play-btn btn-warning" data-vbtype="video" data-autoplay="true">Customer</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   <main id="main">
@@ -42,7 +59,7 @@
 
         <div class="section-title">
           <h2>Why Us</h2>
-          <p>Why Choose Our Restaurant</p>
+          <p>Why does Customer Choose PCSHOPS?</p>
         </div>
 
         <div class="row">
@@ -50,24 +67,26 @@
           <div class="col-lg-4">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <h4>Speed of Service</h4>
+              <p>Customers need assistance on time 24/7 and when you provide it to them, they will always trust your business.</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <h4>Low Product Price</h4>
+              <p>
+                used for emphasizing that something is worth more than it costs
+              </p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              <h4>More Discounts</h4>
+              <p>Giving a discounted prices to our customer, PCSHOPS makes be the most Famous in the Philippines</p>
             </div>
           </div>
 
@@ -134,10 +153,6 @@
 
       </div>
     </section><!-- End Book A Table Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <%- include('./includes/testimonial') %>
-
 
     <!-- ======= Gallery Section ======= -->
     <%- include('./includes/mostsales') %>
